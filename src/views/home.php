@@ -2,7 +2,7 @@
 
 <div>
     <div>
-        <h1>Click on a forest to see all the wild fires that have happened there.</h1>
+        <h1 class="text-3xl font-bold text-wrap">Click on a forest to see all the wild fires that have happened there.</h1>
     </div>
     <hr>
 
