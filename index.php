@@ -1,7 +1,7 @@
 <?php
-    $dbConnection = new PDO('sqlite:FPA_FOD_20170508.sqlite');
 
-    $forests = $dbConnection->query("SELECT DISTINCT NWCG_REPORTING_UNIT_NAME FROM Fires")->fetchAll(PDO::FETCH_ASSOC);
+define('BASE_PATH', realpath(__DIR__));
 
-    var_dump($forests);
-?>
+require BASE_PATH . '/core/Router.php';
+
+Router::route();
