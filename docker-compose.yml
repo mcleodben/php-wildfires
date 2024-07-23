@@ -1,0 +1,5 @@
+services:
+  php_wildfire:
+    build: .
+    ports:
+      - '80:80'
