@@ -18,7 +18,7 @@
                 <?php foreach ($data['forests'] as $forest): ?>
                     <tr>
                         <th>
-                            <a href="/details">
+                            <a href="/details?forest=<?= $forest['NWCG_REPORTING_UNIT_NAME'] ?>">
                                 <?= $forest['NWCG_REPORTING_UNIT_NAME']; ?>
                             </a>
                         </th>

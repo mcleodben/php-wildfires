@@ -25,7 +25,8 @@ class WildfireController extends Controller
 
     public function getByForest()
     {
-        $fires = $this->wildfireModel->getByForest('Plumas National Forest');
+        $forest = $_GET['forest'];
+        $fires = $this->wildfireModel->getByForest($forest);
 
         $this->loadView('details.php', ['fires' => $fires]);
     }
