@@ -6,7 +6,7 @@
 
         <title>Wildfires</title>
     </head>
-    <body class="font-[sans-serif]">
+    <body class="font-[sans-serif] bg-[url(./assets/nighttime-forest-fire.jpg)] bg-contain bg-fixed bg-center bg-no-repeat bg-black">
         <nav class="flex-no-wrap relative flex w-full items-center justify-between bg-orange-200 py-2 shadow-dark-mild">
             <div class="max-w-screen-xl items-center p-4">
                 <a href="/">Home</a>

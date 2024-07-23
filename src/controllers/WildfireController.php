@@ -28,6 +28,6 @@ class WildfireController extends Controller
         $forest = $_GET['forest'];
         $fires = $this->wildfireModel->getByForest($forest);
 
-        $this->loadView('details.php', ['fires' => $fires]);
+        $this->loadView('details.php', ['fires' => $fires, 'forest' => $forest]);
     }
 }
